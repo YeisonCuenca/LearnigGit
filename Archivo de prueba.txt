@@ -11,5 +11,9 @@ Git clone <url>
 Git status, Git status -s, Git status --short
 Git add., Git add "nombre del archivo con su extension"
 Git diff, Git diff --cached
-Git commit -m "Comentario de la confirmacion de esta version", Git commit -m -a "el -a sirve para saltarme el git add, ya que agrega por defecto a todos los archivos modificados"
-Git commit -v <agrega automaticamente el diff a los comentarios del commit>
+Git commit -m "Comentario de la confirmacion de esta version", Git commit -m -a "el -a #sirve para saltarme el git add, ya que agrega por defecto a todos los archivos modificados"
+Git commit -v #nos muestra el diff en los comentarios del commit
+git rm #elimina archivos del proyecto y del rastreo, tambiem acepta directorios y argumentos glob
+git rm --cached <nombre del archivo> #elimina un archivo del preparado
+git mv <nombre del archivo> <nuevo nombre> #renombra archivos
+
