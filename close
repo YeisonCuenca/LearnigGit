@@ -1,0 +1,50 @@
+[33mcommit 56a0e8b289a6810a8f2280fcc324c1bf11615d7a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Yeison Cuenca <ys.cuenca@outlook.com>
+Date:   Fri Nov 26 22:06:46 2021 -0500
+
+    Nuevos comandos aprendidos
+
+[1mdiff --git a/Archivo de prueba.txt b/Archivo de prueba.txt[m
+[1mindex 97c7cad..5529296 100644[m
+[1m--- a/Archivo de prueba.txt[m	
+[1m+++ b/Archivo de prueba.txt[m	
+[36m@@ -11,5 +11,9 @@[m [mGit clone <url>[m
+ Git status, Git status -s, Git status --short[m
+ Git add., Git add "nombre del archivo con su extension"[m
+ Git diff, Git diff --cached[m
+[31m-Git commit -m "Comentario de la confirmacion de esta version", Git commit -m -a "el -a sirve para saltarme el git add, ya que agrega por defecto a todos los archivos modificados"[m
+[31m-Git commit -v <agrega automaticamente el diff a los comentarios del commit>[m
+[32m+[m[32mGit commit -m "Comentario de la confirmacion de esta version", Git commit -m -a "el -a #sirve para saltarme el git add, ya que agrega por defecto a todos los archivos modificados"[m
+[32m+[m[32mGit commit -v #nos muestra el diff en los comentarios del commit[m
+[32m+[m[32mgit rm #elimina archivos del proyecto y del rastreo, tambiem acepta directorios y argumentos glob[m
+[32m+[m[32mgit rm --cached <nombre del archivo> #elimina un archivo del preparado[m
+[32m+[m[32mgit mv <nombre del archivo> <nuevo nombre> #renombra archivos[m
+[41m+[m
+
+[33mcommit c78fdd8460f27d2a5487ef7f7b03482e8c6733b7[m
+Author: Yeison Cuenca <ys.cuenca@outlook.com>
+Date:   Fri Nov 26 21:49:22 2021 -0500
+
+    Mi primer commit
+
+[1mdiff --git a/Archivo de prueba.txt b/Archivo de prueba.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..97c7cad[m
+[1m--- /dev/null[m
+[1m+++ b/Archivo de prueba.txt[m	
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32mEste es un archivo de prueba para aprender Git[m
+[32m+[m
+[32m+[m[32mProbando el git status -s[m
+[32m+[m
+[32m+[m[32mProbando el git diff[m
+[32m+[m
+[32m+[m[32mComandos aprendidos hasta ahora[m
+[32m+[m
+[32m+[m[32mGit init <nombre del proyecto o directorio>[m
+[32m+[m[32mGit clone <url>[m
+[32m+[m[32mGit status, Git status -s, Git status --short[m
+[32m+[m[32mGit add., Git add "nombre del archivo con su extension"[m
+[32m+[m[32mGit diff, Git diff --cached[m
+[32m+[m[32mGit commit -m "Comentario de la confirmacion de esta version", Git commit -m -a "el -a sirve para saltarme el git add, ya que agrega por defecto a todos los archivos modificados"[m
+[32m+[m[32mGit commit -v <agrega automaticamente el diff a los comentarios del commit>[m
