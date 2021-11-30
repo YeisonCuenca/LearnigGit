@@ -1,4 +1,4 @@
-Este es un archivo de prueba para aprender Git
+Este es un archivo de prueba para aprender git
 
 Probando el git status -s
 
