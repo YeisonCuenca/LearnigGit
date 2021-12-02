@@ -1,3 +1,5 @@
 Git reset test
 
 Version 2
+
+Integrando git master
