@@ -4,7 +4,7 @@ Probando el git status -s
 
 Probando el git diff
 
-Comandos aprendidos hasta ahora
+Comandos aprendidos hasta ahora -- Cambio para probar github y hacer git pull
 
 git config 
 git show <nombre de archivo> #nos muestra el ultimo commit y un diff de la version actual versus la version anterior
