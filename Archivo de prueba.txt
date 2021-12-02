@@ -4,7 +4,7 @@ Probando el git status -s
 
 Probando el git diff
 
-Comandos aprendidos hasta ahora
+Comandos aprendidos hasta ahora -- Cambio para probar github y hacer git pull
 
 git config 
 git show <nombre de archivo> #nos muestra el ultimo commit y un diff de la version actual versus la version anterior
@@ -24,6 +24,9 @@ git log #nos muestra el historial de commits con los comentarios
 git log -p #nos muestra el historial de commits con los cambios echos
 
 La unificacion de ramas see llama merge
+<<<<<<< HEAD
 
 git pull #me hace un git fetch y git merge que es traer y unificar los cambios de un repositorio remoto al local
 git pull --allow--unrelated--histories  #hace lo mismo que git pull pero cuando hay conflictos con las historias, lo fuerza a que se unifique
+=======
+>>>>>>> c0d2c3e9a2c9fbfd3b22e1cd4c53eac4e7d82627
