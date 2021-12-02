@@ -1,3 +1,0 @@
-Git reset test
-
-Version 2
