@@ -1,0 +1,14 @@
+pwd = ruta actual
+-ls Lista los archivos (-l Los lista de arriba hacia abajo) (-a habilita los archivos ocultos)
+
+cd (si esta solo me envia hacia mi ruta home)
+
+touch nombreDeArchivo.txt (puede crear un archivo)
+
+cat nombreDeArchivo.txt (puede ver el contenido del archivo)
+
+history (nos muestra el historial de todo lo escrito en la consola)
+
+Escape + shift + (z x2)
+
+q me salgo de algo

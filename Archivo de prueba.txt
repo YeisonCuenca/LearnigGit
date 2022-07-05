@@ -28,3 +28,6 @@ La unificacion de ramas see llama merge
 git pull #me hace un git fetch y git merge que es traer y unificar los cambios de un repositorio remoto al local
 git pull --allow--unrelated--histories  #hace lo mismo que git pull pero cuando hay conflictos con las historias, lo fuerza a que se unifique
 
+
+Cambios sobre git hotfix
+Cambios sobre la rama feature
