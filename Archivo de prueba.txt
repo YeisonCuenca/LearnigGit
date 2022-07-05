@@ -30,3 +30,4 @@ git pull --allow--unrelated--histories  #hace lo mismo que git pull pero cuando 
 
 
 Cambios sobre git hotfix
+Cambios sobre la rama feature
